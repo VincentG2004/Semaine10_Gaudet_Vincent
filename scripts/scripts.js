@@ -15,7 +15,7 @@ function openModale(){
     modale.appendChild(div);
     div.appendChild(mod);
     modale.classList.add('visible');
-    div.addEventListener("click", closeModale);
+    mod.addEventListener("click", closeModale);
 }
 
 function closeModale(event){
